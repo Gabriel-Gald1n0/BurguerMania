@@ -10,8 +10,7 @@ Este projeto foi desenvolvido utilizando o [Angular CLI](https://github.com/angu
      - **Header**: Componente de cabeçalho para todas as páginas.
      - **Botão**: Componente de botão reutilizável com diferentes estilos.
      - **Card**: Componente de cartão para exibição de produtos ou informações.
-     - **Descrição**: Componente para mostrar descrições textuais.
-     - **Input**: Componente de campo de entrada para formulários.
+     - **Container de Imagem**: Componente de imagem para exibição da logo do site.
 
 ### 2. **Roteamento**
    - Implementado o **roteamento** para permitir a navegação entre as páginas.
