@@ -1,0 +1,17 @@
+<app-header></app-header>
+
+<div class="div-title">
+  <h1>{{ productName }}</h1>
+</div>
+
+<div class="card" [ngClass]="{ 'expanded': isExpanded }">
+  <ol class="comidas">
+    <li *ngFor="let item of visibleCards">
+      <app-card [comida]="item" (click)="GoDetails(item.name)"></app-card>
+    </li>
+  </ol>
+</div>
+
+<div class="toggle-btn" [ngClass]="{ 'expanded': isExpanded }">
+  <app-button [buttonText]="buttonText" (click)="toggleCardapio()"></app-button>
+</div>

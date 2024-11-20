@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif, Arial;
+  line-height: 1.6;
+}
+
+/* Estilização geral do title */
+.div-title {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.div-title h1 {
+  color: #ed0000;
+  font-weight: bold;
+  margin: 0;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 54.46px;
+  text-align: center;
+  text-transform: uppercase;
+}

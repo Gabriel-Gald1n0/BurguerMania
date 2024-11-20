@@ -1,0 +1,55 @@
+.btn{
+  background-color: #ED1B00;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, opacity 0.3s;
+  border: 1px solid #ed0000;
+  width: 256px;
+  height: 66px;
+  top: 678px;
+  left: 361px;
+  gap: 0px;
+  opacity: 1px;
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+}
+
+.btn:hover{
+  background-color: #C81700;;
+}
+
+.btn-menu{
+  background-color: #fff;
+  color: #521D16;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, opacity 0.3s;
+  border: 1px solid #ed0000;
+  width: 256px;
+  height: 66px;
+  top: 678px;
+  left: 361px;
+  gap: 0px;
+  opacity: 1px;
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+}
+
+.btn-menu:hover{
+  background-color: #ded0ce;
+}
+
+
+/* Media Queries para telas menores */
+
+@media (max-width: 520px) {
+.btn-menu {
+    margin-bottom: 10px;
+  }
+}
+

@@ -1,0 +1,221 @@
+{
+  "data": [
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-Vegan",
+      "description": "Pão, hambúrguer, alface, tomate, queijo e maionese."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-Fitness",
+      "description": "Pão, hambúrguer, bacon, queijo e molho especial."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-Infarto",
+      "description": "Pão, frango, alface, tomate, queijo e maionese."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-Calabresa",
+      "description": "Pão, hambúrguer, calabresa, queijo e molho barbecue."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-Tudo",
+      "description": "Pão, hambúrguer, bacon, ovo, queijo e molho especial."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-Alface-Premium",
+      "description": "Pão, hambúrguer, alface, tomate, queijo e maionese.",
+      "category": "X-Vegan",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-Tomate",
+      "description": "Pão, hambúrguer, bacon, queijo e molho especial.",
+      "category": "X-Vegan",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-Frutas",
+      "description": "Pão, frango, alface, tomate, queijo e maionese.",
+      "category": "X-Vegan",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-Salada",
+      "description": "Pão, hambúrguer, calabresa, queijo e molho barbecue.",
+      "category": "X-Vegan",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-Salada Monstra",
+      "description": "Pão, hambúrguer, bacon, ovo, queijo e molho especial.",
+      "category": "X-Vegan",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-fit",
+      "description": "Pão, hambúrguer, alface, tomate, queijo e maionese.",
+      "category": "X-Fitness",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-corridinha",
+      "description": "Pão, hambúrguer, bacon, queijo e molho especial.",
+      "category": "X-Fitness",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-delicinha",
+      "description": "Pão, frango, alface, tomate, queijo e maionese.",
+      "category": "X-Fitness",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-top",
+      "description": "Pão, hambúrguer, calabresa, queijo e molho barbecue.",
+      "category": "X-Fitness",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-top Monster",
+      "description": "Pão, hambúrguer, bacon, ovo, queijo e molho especial.",
+      "category": "X-Fitness",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-Ignorancia",
+      "description": "Pão, hambúrguer, alface, tomate, queijo e maionese.",
+      "category": "X-Infarto",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-Diabetes",
+      "description": "Pão, hambúrguer, bacon, queijo e molho especial.",
+      "category": "X-Infarto",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-Obesidade",
+      "description": "Pão, frango, alface, tomate, queijo e maionese.",
+      "category": "X-Infarto",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-MONSTRAO",
+      "description": "Pão, hambúrguer, calabresa, queijo e molho barbecue.",
+      "category": "X-Infarto",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-fit",
+      "description": "Pão, hambúrguer, alface, tomate, queijo e maionese.",
+      "category": "X-Calabresa",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-corridinha",
+      "description": "Pão, hambúrguer, bacon, queijo e molho especial.",
+      "category": "X-Calabresa",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-delicinha",
+      "description": "Pão, frango, alface, tomate, queijo e maionese.",
+      "category": "X-Calabresa",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-top",
+      "description": "Pão, hambúrguer, calabresa, queijo e molho barbecue.",
+      "category": "X-Calabresa",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-top Monster",
+      "description": "Pão, hambúrguer, bacon, ovo, queijo e molho especial.",
+      "category": "X-Calabresa",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-fit",
+      "description": "Pão, hambúrguer, alface, tomate, queijo e maionese.",
+      "category": "X-Calabresa",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-corridinha",
+      "description": "Pão, hambúrguer, bacon, queijo e molho especial.",
+      "category": "X-Tudo",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-delicinha",
+      "description": "Pão, frango, alface, tomate, queijo e maionese.",
+      "category": "X-Tudo",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-top",
+      "description": "Pão, hambúrguer, calabresa, queijo e molho barbecue.",
+      "category": "X-Tudo",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    },
+    {
+      "img": "/assets/img/hamburguer.png",
+      "name": "X-top Monster",
+      "description": "Pão, hambúrguer, bacon, ovo, queijo e molho especial.",
+      "category": "X-Tudo",
+      "value": 35.50,
+      "Details": "Um hambúrguer vegano suculento feito com uma base de grão-de-bico e quinoa, temperado com especiarias defumadas, cebola caramelizada e alho, garantindo uma textura rica e saborosa. Servido em um pão macio, ele vem acompanhado de fatias frescas de tomate, alface crocante, picles, abacate cremoso e uma generosa camada de maionese de ervas vegana. Finalizado com molho barbecue agridoce e uma pitada de pimenta-do-reino moída na hora, proporcionando uma combinação deliciosa de sabores e texturas em cada mordida."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+/* Estilização geral do card */
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 10px auto 0;
+  margin-top: -150px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  gap: 20px;
+  height: calc(100vh - 50px);
+  overflow-y: auto;
+}
+
+.comidas {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.toggle-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: -150px;
+}
+
+.toggle-btn.expanded {
+  margin-top: 1px;
+  margin-bottom: 50px;
+}
+
+.card.expanded {
+  margin-top: 10px;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 920px) {
+  .comidas {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .card {
+    height: auto;
+    margin: 120px auto 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+}
+
+@media (max-width: 890px) {
+  .comidas {
+    grid-template-columns: 1fr;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .card {
+    padding: 10px;
+    height: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .comidas {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .card {
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: 50%;
+  }
+
+  .toggle-btn {
+    margin-top: 50px;
+  }
+}
+

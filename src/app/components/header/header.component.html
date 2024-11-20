@@ -1,0 +1,19 @@
+<header>
+  <div class="logo">
+    <img src="../../../assets/img/logo.png" alt="Logo do restaurante">
+  </div>
+  <nav>
+    <ul [ngClass]="{'active': isMenuActive}">
+      <li><a routerLink="/">Início</a></li>
+      <li><a routerLink="/menu">Categoria</a></li>
+      <li><a routerLink="/menu">Cardápio</a></li>
+      <li><a routerLink="/">Localização</a></li>
+      <li><a routerLink="/">Contato</a></li>
+    </ul>
+    <div class="hamburger" (click)="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+</header>
