@@ -1,4 +1,4 @@
-# BurguerMania - Frontend
+# [BurguerMania - Frontend](https://burguer-mania.netlify.app) 
 
 Este projeto foi desenvolvido utilizando o [Angular CLI](https://github.com/angular/angular-cli) versão 16.0.0. com base no design fornecido no **Figma**, sendo totalmente responsivo e seguindo o layout proposto. O objetivo é criar uma aplicação de pedidos de hambúrgueres com navegação entre páginas, componentes reutilizáveis e estilos consistentes.
 
@@ -48,6 +48,8 @@ A estrutura do projeto foi organizada da seguinte forma:
 ## Link para o Projeto Figma
 
 O design completo e o layout do projeto estão disponíveis no [Projeto Figma - BurguerMania](https://www.figma.com/design/ZVUq3b0IH9fYUHESjmv6NB/BurguerMania?node-id=24-100&node-type=frame&t=U9JjEXNWaddP9MSA-0).
+
+## Link para o [Preview](https://burguer-mania.netlify.app)
 
 ## Instalar Dependências 
 
