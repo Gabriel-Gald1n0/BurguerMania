@@ -5,12 +5,9 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 20px;
-  margin: 10px auto 0;
-  margin-top: -150px;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  margin: 20px auto;
   gap: 20px;
-  height: calc(100vh - 50px);
+  max-width: 100%;
   overflow-y: auto;
 }
 
@@ -25,54 +22,25 @@
   max-width: 1000px;
 }
 
+/* Botão toggle */
+.toggle-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .toggle-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  margin-top: -150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.toggle-btn.expanded {
-  margin-top: 1px;
-  margin-bottom: 50px;
-}
-
-.card.expanded {
-  margin-top: 10px;
-}
-
-/* Media queries para responsividade */
+/* Responsividade */
 @media (max-width: 920px) {
   .comidas {
-    grid-template-columns: repeat(1, 1fr);
-    margin-left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .card {
-    height: auto;
-    margin: 120px auto 0;
-    margin-left: 50%;
-    transform: translateX(-50%);
-  }
-
-}
-
-@media (max-width: 890px) {
-  .comidas {
-    grid-template-columns: 1fr;
-    margin-left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .card {
-    padding: 10px;
-    height: auto;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    margin-top: 50px;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -83,13 +51,11 @@
   }
 
   .card {
-    padding: 10px;
-    margin-top: 60px;
-    margin-left: 50%;
+    margin-top: 10px;
   }
 
-  .toggle-btn {
-    margin-top: 50px;
+  .toggle-btn-container {
+    margin-top: 20px;
+    margin-bottom: 50px;
   }
 }
-
