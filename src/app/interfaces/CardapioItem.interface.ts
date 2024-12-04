@@ -1,8 +1,10 @@
 export interface CardapioItem {
-  img: string;
+  id: number;
+  pathImage: string;
   name: string;
   description: string;
   category: string;
-  value: number;
-  Details: string;
+  price: number;
+  fullDescription: string;
+  categoryName: string;
 }

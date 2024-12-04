@@ -26,15 +26,15 @@ export class DetailsComponent implements OnInit {
 
   // Função para carregar os dados do JSON
   carregarCardapio(): void {
-    this.ApiService.carregarCardapio().subscribe((response) => {
-      const foundItems = response.data.filter((item: CardapioItem) => item.name === this.productName);
-      this.Card = foundItems[0];  // Atribui o primeiro item correspondente
+    this.ApiService.carregarProduto().subscribe((response) => {
+      const foundItems = response.dados.filter((item: CardapioItem) => item.name === this.productName);
+      this.Card = foundItems[0];
     }, (error) => {
       console.error('Erro ao carregar o JSON:', error);
     });
   }
 
-  GoBuy(): void {
-    this.router.navigate(['order']);
+  GoBuy(cardapioName: string): void {
+    this.router.navigate(['/order', cardapioName]);
   }
 }

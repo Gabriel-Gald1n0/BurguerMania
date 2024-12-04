@@ -1,5 +1,6 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input,OnInit } from '@angular/core';
 import { Order } from 'src/app/interfaces/Order.interface';
+import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { ApiService } from './../../services/api.service';
 
@@ -8,7 +9,7 @@ import { ApiService } from './../../services/api.service';
   templateUrl: './order.component.html',
   styleUrls: ['./order.component.css']
 })
-export class OrderComponent {
+export class OrderComponent implements OnInit {
   @Input() buttonText: string = 'FINALIZAR';
 
   order: Order = {
@@ -19,7 +20,16 @@ export class OrderComponent {
     observacao: ''
   };
 
-  constructor(private http: HttpClient, private ApiService: ApiService) {}
+  constructor(private http: HttpClient, private route: ActivatedRoute, private router: Router, private ApiService: ApiService) {}
+
+  ngOnInit(): void {
+    // Capturar o nome do produto da URL
+    this.route.params.subscribe((params) => {
+      const productName = params['name'];
+      this.order.produto1 = this.order.produto2  = productName;
+    });
+  }
+
   // Função para enviar o pedido
   onSubmit() {
     console.log('Pedido enviado:', this.order);

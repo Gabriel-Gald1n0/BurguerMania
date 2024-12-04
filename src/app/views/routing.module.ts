@@ -25,6 +25,10 @@ const routes: Routes = [
     component: ProductComponent
   },
   {
+    path: 'order/:name',
+    component: OrderComponent
+  },
+  {
     path: 'order',
     component: OrderComponent
   },

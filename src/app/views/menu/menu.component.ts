@@ -22,7 +22,7 @@ export class MenuComponent implements OnInit {
   // Função para carregar os dados do JSON
   carregarCardapio(): void {
     this.ApiService.carregarCardapio().subscribe((response) => {
-      this.allCards = response.data.filter((item: CardapioItem) => item.category == null);
+      this.allCards = response.dados.filter((item: CardapioItem) => item.category == null);
       this.visibleCards = this.allCards.slice(0, 3);
     }, (error) => {
       console.error('Erro ao carregar o JSON:', error);

@@ -5,19 +5,20 @@
 
 <div class="cardapio-item" *ngIf="Card">
   <div class="left-section">
-    <img [src]="Card.img" alt="{{ Card.name }}" class="product-image" />
+    <img [src]="Card.pathImage
+    " alt="{{ Card.name }}" class="product-image" />
     <h2>{{ Card.name }}</h2>
     <p>{{ Card.description }}</p>
-    <h3 class="price">{{ Card.value | number: '1.2-2' }} R$</h3>
+    <h3 class="price">{{ Card.price | number: '1.2-2' }} R$</h3>
   </div>
   <div class="right-section">
     <h3>Descrição</h3>
     <p>
-      {{ Card.Details }}
+      {{ Card.fullDescription }}
     </p>
   </div>
 </div>
-<div class="button-container">
-  <app-button [buttonText]="buttonText" (click)="GoBuy()"></app-button>
+<div class="button-container" *ngIf="Card">
+  <app-button [buttonText]="buttonText" (click)="GoBuy(Card.name)"></app-button>
 </div>
 

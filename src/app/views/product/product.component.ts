@@ -29,14 +29,14 @@ export class ProductComponent implements OnInit {
 
   // Função para carregar os dados do JSON
   carregarCardapio(): void {
-    this.ApiService.carregarCardapio().subscribe((response) => {
-      this.allCards = response.data.filter((item: CardapioItem) => item.category === this.productName);
-
+    this.ApiService.carregarProduto().subscribe((response) => {
+      this.allCards = response.dados.filter((item: CardapioItem) => item.categoryName === this.productName);
       this.visibleCards = this.allCards.slice(0, 3);
     }, (error) => {
       console.error('Erro ao carregar o JSON:', error);
     });
   }
+
 
   toggleCardapio(): void {
     this.isExpanded = !this.isExpanded;
